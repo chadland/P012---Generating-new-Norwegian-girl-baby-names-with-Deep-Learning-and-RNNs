@@ -349,9 +349,9 @@ def model_trainer(
                                     #Save column names
                                     model_results_columns = ['ModelName', 'NumEpochs', 'NumSteps', 'CellType', 
                                                              'Dropout', 'StateSize', 'BatchSize', 'NumLayers', 'LearningRate', 'CurrentModelLoss', 'GeneratedNewNames', 'RateOfNewNamesOfSSBNames', 'CharactersToGenerate', 'RandomLetterAsStartSequence', 'NrOfTopCharsToReturn']
-                                    
-            #Return model
-            return model_results
+        
+        return model_results
 # TODO:
 #Investigate layers and check to see what triggers sequences given an input
+#Get people to generate names
 model_results = model_trainer()
